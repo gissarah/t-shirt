@@ -15,7 +15,7 @@ body{
   text-transform: capitalize;
   text-align: center;
   position: relative;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 .tittle::after{
   position: absolute;
@@ -146,17 +146,15 @@ nav ul li a:hover::after{
 /*                                  end header                              */
 /*------------------------ start main--------------------------------------- */
 main{
+  height:700px;
+  width: 100%;
+  background-image: url(../image/white-t-shirt.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
   position: relative;
 }
-.main-content{
- height: 550px;
- width: 100%;
- background-image: url(../image/white-t-shirt.jpg) ;
- background-repeat: no-repeat;
- background-size: cover; 
- background-position: center;
- position: relative;
-}
+
 .main-center{
  text-transform: uppercase; 
  text-align: center;
@@ -253,11 +251,13 @@ right: 15px;
 }
 .discount-items{
   width: 25%;
-  height: 236px;
-  background-image: url(../image/category-nominimum.jpg);
-  background-size: cover;
+  height: 250px;
   position: relative;
   transition: 0.5s ease;
+}
+.discount-items img{
+  width: 100%;
+  height: 100%;
 }
 .discount-items:nth-child(2){
   margin: 0 1%;
@@ -426,9 +426,7 @@ padding: 5px 0px;
  
    .discount-items{
      width: 45%; 
-    height: 236px;
-    background-image: url(../image/category-nominimum.jpg);
-    background-size: cover;
+     height: 250px;
     position: relative;
     transition: 0.5s ease;
   }
@@ -461,6 +459,17 @@ padding: 5px 0px;
 
 }
 @media(max-width:600px){
+
+  main{
+    position: relative;
+    height:400px;
+    width: 100%;
+    background-image: url(../image/white-t-shirt.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+  }
   .main-center{
     text-transform: uppercase; 
     text-align: center;
@@ -486,9 +495,7 @@ padding: 5px 0px;
   }
   .discount-items{
     width: 100%;
-    height: 325px;
-    background-image: url(../image/category-nominimum.jpg);
-    background-size: cover;
+    height: 250px;
     position: relative;
     transition: 0.5s ease;
   }
